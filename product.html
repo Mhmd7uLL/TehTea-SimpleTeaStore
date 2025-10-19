@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Product - TehTea.</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/product.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg tea-combo5">
+        <div class="container-fluid bg-transparent p-4">
+          <h1 class="brand ps-2 fw-bold fs-1 text-matcha2">
+            Teh<span style="font-weight: normal; color: #f4991a">Tea.</span>
+          </h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav gap-5 pe-5">
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="product.html"
+                >All Products</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="about.html"
+                >About</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="contact.html"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="cart">
+            <a href="">
+              <img src="src/cart.png" alt="">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search here..." />
+      <button>Find it !</button>
+    </div>
+
+    <div class="container mb-4">
+      <!-- LEFT SIDE : FILTER -->
+      <div class="filter-side">
+        <h1>Filter Options</h1>
+        <hr />
+        <div class="filter-categories">
+          <h3>By Categories</h3>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Tea</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Coffee</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Milk</p>
+          </div>
+        </div>
+        <hr />
+        <div class="filter-price">
+          <h3>Sort by Price</h3>
+          <div class="sort-price">
+            <input type="number" placeholder="Minimum Price" />
+            <input type="number" placeholder="Maximum Price" />
+          </div>
+          <button>Apply</button>
+        </div>
+        <hr />
+        <div class="filter-review">
+          <h3>Review</h3>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>4 stars & up</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>3 stars & up</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>2 stars & up</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>1 star & up</p>
+          </div>
+        </div>
+        <hr />
+        <div class="filter-promotion">
+          <h3>By Promotions</h3>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>New Arrival</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Top Seller</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Best Rated</p>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" />
+            <p>Free Delivery</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE : PRODUK TEH -->
+      <div class="product-side">
+        <h5>Based on what people taught lastly...</h5>
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/matcha.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐5.0</span></p>
+                <h5 class="card-title fw-bold">Japanese Matcha Tea</h5>
+                <b class="card-text fs-3 text-matcha3"
+                  >Rp 25.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=Matcha-Tea'"
+                  >
+                    Order now
+                  </button></b
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/sakura-matcha.jpeg"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐5.0</span></p>
+                <h5 class="card-title fw-bold">Sakura Matcha Blend</h5>
+                <b class="card-text text-matcha3 fs-3"
+                  >Rp 35.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=Sakura-Matcha-Tea'"
+                  >
+                    Order now
+                  </button></b
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/ginger-root.jpeg"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.9</span></p>
+                <h5 class="card-title fw-bold">Lemon Ginger Tea</h5>
+                <b class="card-text fs-3 text-matcha3"
+                  >Rp 18.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=Lemon-Ginger-Tea'"
+                  >
+                    Order now
+                  </button></b
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/rose-oolong.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.8</span></p>
+                <h5 class="card-title fw-bold">Rose Oolong Tea</h5>
+                <b class="card-text fs-4 text-matcha3"
+                  >Rp 22.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=Rose-Oolong'"
+                  >
+                    Order now
+                  </button></b
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="src/allprod/cappucino.png" class="card-img-top rounded-top-4" alt="..." />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Coffee <span>⭐4.8</span></p>
+                <h5 class="card-title">Cappucino Coffee</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 25.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=cappucino'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/jasmine.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.8</span></p>
+                <h5 class="card-title">Jasmine Tea</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 23.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=jasmine-tea'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/peppermint.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.7</span></p>
+                <h5 class="card-title">Peppermint Tea</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 40.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=peppermint-tea'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/earl-grey-tea.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.7</span></p>
+                <h5 class="card-title">Earl Grey Tea</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 35.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=earl-grey-tea'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="src/allprod/arabica.png" class="card-img-top rounded-top-4" alt="..." />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Coffee <span>⭐4.6</span></p>
+                <h5 class="card-title">Arabica Coffee</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 35.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=arabica'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/assam-tea.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.6</span></p>
+                <h5 class="card-title">Assam Tea</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 32.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=assam-tea'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="src/allprod/americano.png" class="card-img-top rounded-top-4" alt="..." />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Coffee <span>⭐4.5</span></p>
+                <h5 class="card-title">Americano Coffee</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 15.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=americano'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img
+                src="src/allprod/chamomile.png"
+                class="card-img-top rounded-top-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="fw-lighter my-0">Tea <span>⭐4.3</span></p>
+                <h5 class="card-title">Chamomile Tea</h5>
+                <p class="card-text fs-4 fw-bold text-matcha3">
+                  Rp 45.000<button
+                    onclick="location.href='Feature-Page/order-page.html?topik=chamomile-tea'"
+                  >
+                    Order now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
