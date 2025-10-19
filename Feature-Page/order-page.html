@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title-page">...</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/order-page.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg tea-combo5">
+        <div class="container-fluid bg-transparent p-4">
+          <a class="navbar-brand ps-2 fw-bold fs-1 text-matcha2" href="#"
+            >Teh<span style="font-weight: normal; color: #f4991a">Tea.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav gap-5 pe-5">
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="../index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="../product.html"
+                >All Products</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="../about.html"
+                >About</a
+              >
+              <a
+                class="nav-link fs-4 z-3 fw-bold text-matcha2"
+                href="contact.html"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="cart">
+            <a href="cart-page.html">
+              <img src="../src/cart.png" alt="">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--   PRODUCT ORDER    -->
+    <div class="container">
+      <div class="tea-image">
+        <img src="..." alt="..." class="main-image" id="tea-img" />
+      </div>
+      
+      <div class="tea-details">
+        <h2 id="tea-name">...</h2>
+
+        <div class="tea-price">
+          <h1 id="tea-price">...</h1>
+          <p id="add-price"></p>
+        </div>
+
+        <p class="delivery">
+          Estimated delivery:
+          <span style="font-weight: bold">An hour after checkout</span>
+        </p>
+        <hr />
+
+        <div class="options">
+          <div class="cold-or-hot">
+            <h4>Drink temperature:</h4>
+            <button class="option-btn active" id="hot-btn">Hot</button>
+            <button class="option-btn" id="ice-btn">Ice</button>
+            <button class="option-btn" id="normal-btn">Normal</button>
+          </div>
+
+          <div class="quantity">
+            <h4>Quantity :</h4>
+            <button class="quantity-btn" id="minus" onclick="kurangQuantity()">
+              -
+            </button>
+            <input type="text" value="1" id="qty" />
+            <button class="quantity-btn" id="plus" onclick="tambahQuantity()">
+              +
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="action-buttons">
+          <button class="buy-now">Buy Now</button>
+          <button class="add-to-cart" id="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper mx-auto">
+    </div>
+
+    <script src="../js/add-to-cart.js"></script>
+    <script src="../js/order-page.js"></script>
+  </body>
+</html>
