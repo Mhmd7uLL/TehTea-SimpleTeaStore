@@ -1,0 +1,75 @@
+.contact-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-contact,
+.desc-contact {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-contact input {
+    padding: 10px 300px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #344f1f;
+}
+
+.form-contact button {
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: #344f1f;
+    border: none;
+    color: #f9f5f0;
+}
+
+.form-contact input[placeholder="message"]{
+    padding: 10px 300px 200px 20px;
+}
+
+.form-contact button:hover {
+    background-color: #f4991a;
+}
+
+/* Bagian contact deskripsi */
+.desc-contact h4{
+    background-color: #f4991a;
+    color: white;
+    width: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.desc-contact h1 {
+    font-weight: bold;
+}
+
+.desc-contact p {
+    text-align: justify;
+}
+
+.contact-details {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #344f1f;
+}
+
+.socmed { 
+    display: flex;
+    gap: 20px;
+}
+
+.socmed a img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}

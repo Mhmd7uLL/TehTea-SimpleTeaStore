@@ -1,0 +1,81 @@
+body {
+  background-color: #f2ead3;
+}
+
+.about-main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.side1 {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.side1 h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: end;
+  color: #344f1f
+}
+
+.side1 h3 {
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.side2 img {
+  width: 500px;
+  height: 500px;
+}
+
+.stats {
+  background: url("../src/about-bg/bg-about.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  color: #f4991a;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-box h2 {
+  font-size: 35px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.wrap {
+  background-color: white;
+  padding-bottom: 200px;
+}
+
+.stat-box p {
+  margin-top: 5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.title-team {
+  padding: 80px 0 80px 0;
+  text-align: center;
+}
+
+.title-team h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #344f1f;
+}

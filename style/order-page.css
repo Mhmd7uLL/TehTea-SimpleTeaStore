@@ -1,0 +1,175 @@
+body {
+  background-color: #f9f5f0;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  height: 76vh;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.tea-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tea-details {
+  background-color: #f2ead3;
+  border-radius: 10px;
+  padding: 40px;
+  min-width: 350px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.tea-price {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.tea-price h1 {
+  color: #f4991a;
+  font-size: 40px;
+}
+
+.tea-price p {
+  font-weight: bold;
+  color: #344f1f;
+}
+
+.tea-price p {
+  color: #344f1f;
+}
+
+.delivery {
+  color: #333;
+  margin: 10px 0;
+}
+
+.options {
+  margin: 20px 0;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.option-btn {
+  margin: 10px 10px 0 0;
+  padding: 8px 25px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+.active{
+  background-color: #344f1f;
+  color: #f9f5f0;
+}
+
+
+.option-btn:hover {
+  border-color: #344f1f;
+  background-color: #344f1f;
+  color: #f9f5f0;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.quantity input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #f2ead3;
+  font-size: 16px;
+}
+
+.quantity-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #344f1f;
+  border: 1px solid #344f1f;
+  color: #f9f5f0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.quantity-btn:hover {
+  background-color: #f9f5f0;
+  color: #344f1f;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-to-cart,
+.buy-now {
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-to-cart {
+  background-color: white;
+  border: 2px solid #344f1f;
+  color: #344f1f;
+  border-radius: 50px;
+}
+
+.add-to-cart:hover {
+  background-color: #344f1f;
+  color: #f9f5f0;
+}
+
+.buy-now {
+  background-color: #344f1f;
+  color: white;
+  border-radius: 50px;
+}
+
+.buy-now:hover {
+  background-color: #f9f5f0;
+  color: #f4491a;
+  border: 1px solid #f4491a;
+}
+
+.wrapper {
+  margin-top: 20px;
+  max-width: 1200px;
+  height: 76vh;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
